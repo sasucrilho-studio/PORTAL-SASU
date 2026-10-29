@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0908">
+  <meta name="description" content="SASUCRILHOS STUDIO — canal de dublagens e paródias de animes, filmes e outros conteúdos.">
+  <title>SASUCRILHOS STUDIO</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <nav class="top-nav reveal" aria-label="Navegação principal">
+      <a class="nav-link active sound-button" href="index.html">Início</a>
+      <a class="nav-link nav-recruit sound-button" href="recrutamento.html">Recrutamento <span>↗</span></a>
+      <button class="theme-toggle sound-button" id="theme-toggle" type="button" aria-label="Ativar modo claro" aria-pressed="false"><span class="theme-icon" aria-hidden="true">☀</span><span class="theme-label">Modo claro</span></button>
+    </nav>
+
+    <section class="hero reveal">
+      <div class="logo-wrap" aria-label="Logo SASUCRILHOS STUDIO">
+        <div class="logo-ring" aria-hidden="true"></div>
+        <div class="logo-glow" aria-hidden="true"></div>
+        <img class="logo-base" src="assets/logo-base.png" alt="" aria-hidden="true">
+        <img class="logo-face" src="assets/logo-face.png" alt="Logo SASUCRILHOS STUDIO">
+      </div>
+
+      <p class="eyebrow">BEM-VINDO AO</p>
+      <h1>SASUCRILHOS <span>STUDIO</span></h1>
+      <p class="tagline">Dublagens • Paródias • Entretenimento</p>
+      <p class="intro">Um estúdio de dublagens e paródias que dá voz a cenas de animes, filmes e outros conteúdos.</p>
+    </section>
+
+    <section class="links-section reveal" aria-labelledby="links-title">
+      <div class="section-heading">
+        <span class="line"></span>
+        <h2 id="links-title">ENCONTRE O STUDIO</h2>
+        <span class="line"></span>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card glass sound-button" href="https://www.tiktok.com/@sasucrilhos" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true"><img src="assets/icons/tiktok.svg" alt=""></span>
+          <span class="social-copy"><b>TikTok</b><small>@sasucrilhos</small></span>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="social-card glass sound-button" href="https://www.instagram.com/sasucrilhos?igsi=MTN0dTJiZTJtNXhudg%3D%3D" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true"><img src="assets/icons/instagram.svg" alt=""></span>
+          <span class="social-copy"><b>Instagram</b><small>@sasucrilhos</small></span>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="social-card glass sound-button" href="https://discord.com/invite/tNzSMyUg7" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true"><img src="assets/icons/discord.svg" alt=""></span>
+          <span class="social-copy"><b>Discord</b><small>Entre na comunidade</small></span>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="social-card glass sound-button" href="https://www.youtube.com/@Sasucrilhos/videos" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true"><img src="assets/icons/youtube.svg" alt=""></span>
+          <span class="social-copy"><b>YouTube</b><small>@Sasucrilhos</small></span>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="recruit-cta reveal" aria-labelledby="recruit-title">
+      <a class="recruit-card glass sound-button" href="recrutamento.html">
+        <span class="recruit-icon" aria-hidden="true">✦</span>
+        <span class="recruit-copy">
+          <b id="recruit-title">Quer fazer parte do SASUCRILHOS STUDIO?</b>
+          <small>Estamos recrutando dubladores, editores e artistas voluntários.</small>
+        </span>
+        <span class="arrow">↗</span>
+      </a>
+    </section>
+
+    <section class="videos-section reveal" aria-labelledby="videos-title">
+      <div class="section-heading">
+        <span class="line"></span>
+        <h2 id="videos-title">VÍDEO EM DESTAQUE NO YOUTUBE</h2>
+        <span class="line"></span>
+      </div>
+
+      <div class="video-carousel glass" data-video-index="0">
+        <div class="video-frame-wrap" id="youtube-player-wrap">
+          <iframe 
+            src="https://www.youtube.com/embed/OoDmiXOumMw" 
+            title="Jujutsu: A Campanha Eleitoral 🇧🇷 - Redublagem | PARTE 1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-caption">
+          <div>
+            <b id="video-title">Jujutsu: A Campanha Eleitoral 🇧🇷 - Redublagem | PARTE 1</b>
+          </div>
+          <a id="video-open" class="channel-button sound-button" href="https://youtu.be/OoDmiXOumMw?si=zlvFQ9Oa-ZXvdtJR" target="_blank" rel="noopener noreferrer">Abrir no YouTube <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about reveal">
+      <div class="about-card glass">
+        <div class="about-mark">S</div>
+        <div>
+          <p class="eyebrow">SASUCRILHOS STUDIO</p>
+          <h2>Obrigado por estar aqui.</h2>
+          <p>Acompanhe nossas dublagens, paródias e novos conteúdos pelas redes sociais.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer reveal">
+      <img src="assets/logo.png" alt="" aria-hidden="true">
+      <span>© <span id="year"></span> SASUCRILHOS STUDIO</span>
+      <span class="footer-dot">•</span>
+      <span>Feito para a comunidade.</span>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
